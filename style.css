@@ -1,0 +1,81 @@
+body{
+    background-color: azure;
+}
+
+.princi{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(228, 228, 228) ;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 60px;
+    height: 550px;
+}
+.formu{
+    display: flex;
+    
+}
+.img{
+    height: 550px;
+    width: 350px;
+}
+.gauch{
+    margin-right: 60px;
+}
+.droite{
+    margin-right: 50px;
+}
+.regis{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(255, 253, 250);
+    width: 290px;
+    margin-left: 110px;
+    color: rgb(202, 151, 55);
+    margin-top: 60px;
+    font-size: 2em;
+}
+.cercl{
+    display: flex;
+    justify-content: center;
+    color: rgb(100, 100, 100);
+}
+.tret{
+    width: 100px;
+}
+.vert{
+    display: flex;
+    justify-content: center;
+    color: brown;
+    font-size: 22px;
+}
+.a{
+    background-color: rgb(228, 228, 228) ;
+    font-size: 18px;
+    height: 40px;
+    width: 200px;
+}
+input{
+    border: none;
+    border-bottom: 2px solid black;
+}
+label{
+    font-size: 20px;
+    color: rgb(112, 112, 112);
+}
+select{
+    border: none;
+    border-bottom: 2px solid black;
+    color: rgb(112, 112, 112);
+}
+.label{
+    margin-top: 25px;
+}
+.g{
+    font-size: 20px;
+    background: wheat;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 150px;
+    height: 40px;
+}
