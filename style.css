@@ -1,20 +1,19 @@
 body{
     background-color: rgb(214, 253, 253);
 }
-main{
-    display: flex;
-    
-}
 
+
+.page_1{
+    display: none;
+}
 .princi{
     display: flex;
     justify-content: space-between;
     background-color: rgb(252, 247, 247) ;
-    margin-left: 250px;
-    margin-right: 200px;
-    margin-top: 55px;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 4%;
     height: 550px;
-    /* display: none; */
 }
 
 /* formulaire_1 */
@@ -41,6 +40,18 @@ main{
     margin-left: 50px;
 }
 .troi{
+    margin-left: 50px;
+}
+.cinq{
+    margin-left: 50px;
+}
+.six{
+    margin-left: 50px;
+}
+.huit{
+    margin-left: 50px;
+}
+.neuf{
     margin-left: 50px;
 }
 .progress-bar .step{
@@ -71,7 +82,7 @@ main{
     background: burlywood;
     transform: scaleX(0);
     transform-origin: left;
-    animation: animate 1s linear forwards;
+    animation: animate 0.3s linear forwards;
 }
 @keyframes animate {
     100%{
