@@ -8,7 +8,6 @@ main{
     display: flex;
     justify-content: center;
     height: 100%;
-    align-items: center;
     width: 100%;
 }
 .page_1{
@@ -18,10 +17,8 @@ main{
     display: flex;
     justify-content: space-between;
     background-color: rgb(252, 247, 247) ;
-    /* margin-left: 16%; */
-    /* margin-right: 16%; */
-    margin-top: 4%;
-    /* height: 550px; */
+    margin-top: 8%;
+    height: 600px;
     width: 900px;
     position: relative;
 }
@@ -33,7 +30,7 @@ main{
     
 }
 .img{
-    height: 550px;
+    height: 600px;
     width: 350px;
 }
 
@@ -300,8 +297,20 @@ select{
 
 
 @media screen and (max-width: 950px) {
+    
     .princi{
-        flex-direction: column;
+        /* flex-direction: column; */
+        display: block;
+        height: 1500px;
+        margin-top: 0%;
+    }
+    .container{
+        width: 820px;
+        
+    }
+    
+    body{
+        width: 830px;
     }
     .img{
         width: 100%;
@@ -313,17 +322,22 @@ select{
         width: 100%;
     }
     .tetra{
-        width: 945px;
+        width: 800px;
+        height: 100px;
     }
     .eme{
         margin-left: 0;
     }
+    input{
+        margin-left: 40px;
+    }
     .display{
-        flex-direction: column;
+        /* flex-direction: column; */
+        display: block;
         width: 100%;
     }
     .z{
-        margin-left: 30px;
+        margin-left: 0px;
     }
     .zip{
         flex-direction: column;
@@ -332,13 +346,97 @@ select{
         width: 100%;
     }
     .regis{
-        margin-left: 290px;
+        margin-left: 210px;
+        font-size: 4em;
+        width: 600px;
     }
     .re{
-        margin-left: 330px;
+        margin-left: 210px;
+        font-size: 4em;
+        width: 600px;
+        margin-left: 200px;
+    }
+    .y{
+        margin-left: 130px;
     }
     .ve{
-        margin-left: 345px;
+        font-size: 2em;
+        margin-left: 300px;
+    }
+    .vert{
+        font-size: 2em;
+        margin-left: 300px;
+        
     }
     
+    .p1 {
+        font-size: 2em;
+        margin-left: 300px;
+        
+    }
+    .bre {
+        font-size: 2em;
+        margin-left: 300px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .princi{
+        height: 2500px;
+    }
+    .a{
+        font-size: 40px;
+        height: 80px;
+        
+    }
+    .g{
+        width: 200px;
+        font-size: 40px;
+        height: 80px;
+        
+    }
+    .b1{
+        width: 200px;
+        font-size: 40px;
+        height: 80px;
+        
+    }
+    .b2{
+        width: 200px;
+        font-size: 40px;
+        height: 80px;
+        
+    }
+    .t1{
+        width: 200px;
+        font-size: 40px;
+        height: 80px;
+        
+    }
+    .t2{
+        width: 200px;
+        font-size: 40px;
+        height: 80px;
+        
+    }
+    .c{
+        font-size: 40px;
+        height: 80px;
+        
+    }
+    .tetra{
+        font-size: 40px;
+        height: 180px;
+        
+    }
+    label{
+        font-size: 40px;
+    }
+    input{
+        /* margin-left: 30px; */
+        width: 30px;
+        height: 30px;
+    }
 }
