@@ -78,8 +78,8 @@
         page_3.style.display = "none";
         page_2.style.display = "block";
       })
+   
+   
     // // //    envoyer le formilaire
-    // // b2.addEventListener("click", () => {
-        
-    // //   })
+    
     

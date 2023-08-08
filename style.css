@@ -17,10 +17,12 @@ main{
     display: flex;
     justify-content: space-between;
     background-color: rgb(252, 247, 247) ;
-    margin-top: 8%;
-    height: 600px;
+    margin-top: 3%;
+    height: 550px;
     width: 900px;
     position: relative;
+    border-radius: 5px;
+    border: 2px solid wheat;
 }
 
 /* formulaire_1 */
@@ -30,8 +32,9 @@ main{
     
 }
 .img{
-    height: 600px;
+    height: 550px;
     width: 350px;
+    border-radius: 5px;
 }
 
 .container .progress-bar{
